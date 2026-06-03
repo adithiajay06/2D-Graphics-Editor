@@ -40,7 +40,7 @@ int add_line(int x1, int y1, int x2, int y2) {
 
     return shapes[idx].id;
 }
-
+// Added rectangle drawing function
 int add_rectangle(int x1, int y1, int x2, int y2) {
     int idx = find_empty_slot();
     if (idx == -1) return -1;
