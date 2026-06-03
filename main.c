@@ -1,9 +1,6 @@
-#include <stdio.h>
-#include "graphics.h"
+#include "menu.h"
 
-int main() {
-    initCanvas();                // prepare blank canvas
-    drawRectangle(2, 2, 5, 3);   // draw a rectangle
-    displayCanvas();             // show canvas
+int main(void) {
+    run_menu();
     return 0;
 }
