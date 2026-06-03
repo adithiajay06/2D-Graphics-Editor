@@ -1,3 +1,4 @@
+// Initialized canvas and display function
 #include "menu.h"
 
 int main(void) {
