@@ -55,6 +55,7 @@ int add_rectangle(int x1, int y1, int x2, int y2) {
 
     return shapes[idx].id;
 }
+// Implemented circle drawing using midpoint algorithm
 
 int add_circle(int cx, int cy, int radius) {
     int idx = find_empty_slot();
