@@ -70,7 +70,7 @@ int add_circle(int cx, int cy, int radius) {
 
     return shapes[idx].id;
 }
-
+// Implemented triangle drawing function
 int add_triangle(int x1, int y1, int x2, int y2, int x3, int y3) {
     int idx = find_empty_slot();
     if (idx == -1) return -1;
@@ -271,9 +271,8 @@ void draw_triangle_to_canvas(int x1, int y1, int x2, int y2, int x3, int y3) {
     draw_line_to_canvas(x2, y2, x3, y3);
     draw_line_to_canvas(x3, y3, x1, y1);
 }
-/ /   A d d e d   r e c t a n g l e   d r a w i n g   f u n c t i o n  
- / /   I m p l e m e n t e d   c i r c l e   d r a w i n g   u s i n g   m i d p o i n t   a l g o r i t h m  
- / /   A d d e d   l i n e   d r a w i n g   f u n c t i o n  
- / /   A d d e d   l i n e   d r a w i n g   f u n c t i o n  
- / /   I m p l e m e n t e d   t r i a n g l e   d r a w i n g   f u n c t i o n  
+
+ 
+ 
+ 
  
