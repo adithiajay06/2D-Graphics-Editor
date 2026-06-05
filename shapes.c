@@ -276,3 +276,5 @@ void draw_triangle_to_canvas(int x1, int y1, int x2, int y2, int x3, int y3) {
  
  
  
+/ /   A d d e d   r e c t a n g l e   d r a w i n g   f u n c t i o n  
+ 
